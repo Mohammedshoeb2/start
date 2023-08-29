@@ -1,0 +1,183 @@
+*{
+    margin: 0%;padding: 0%;box-sizing: border-box;
+}
+:root{
+    --primary-color:#dbf7ff;
+    --secondary-color: #041735;
+
+}
+body{
+    font-family: "poppins",sans-serif;}
+ h1{
+font-size: 4rem;
+    }
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: "poppins",sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.fix{
+    font-size: 1rem;
+    color: grey;
+}
+ 
+/* Utility class */
+.container{
+    max-width: 1300px;
+    margin-inline:auto ;
+}
+.container1{
+    max-width: 1300px;
+    margin-inline:auto ; background-color: rgba(97, 105, 138, 0.082);
+}
+.hover-link{
+    color: black;
+    transition: 0.2s ease-out;
+}
+.hover-link:hover{
+    color: aqua;
+    text-shadow: 5px 5px 5px#041735;
+}
+.flex{
+    display: flex;
+}
+.imgclass{
+    width: 200px;
+}
+.nav{
+    padding-top: 30px;padding-bottom: 30px;
+    justify-content: space-between ;
+    /* position: fixed; */
+    /* border: 2px solid black; */
+}
+hr{
+    box-shadow: 5px 5px 25px black;
+}
+
+.linkdiv{
+    gap:50px;
+    margin-left: 400px;
+}
+.primary-button{
+    background-color: green;
+    color: antiquewhite !important;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px greenyellow;
+}
+#hh::after{
+    content: "from 8 years"; color: green;
+}
+.main{
+    padding-top: 200px;
+    background-color: rgba(100, 106, 129, 0.178);
+    height: 100vh;
+ }
+ .main123{
+
+ }
+.ourclients{
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.icon{
+    margin-left: 250px;
+    height: 50px;
+}
+.Icon{
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.main2{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.picture{
+    gap: 340px;
+    align-items: center;
+    margin-top: 50px;
+}
+.pimg{
+    /* border: 0px solid grey; */
+    
+    transition: 0.2s ease-out;
+}
+.pimg:hover{
+    color: rgb(0, 255, 21);
+    box-shadow: 5px 5px 24px grey;
+}
+.sailenttext{
+    text-align: left;
+    margin-top: 150px;
+}
+.new{
+    flex-direction: column;
+    gap: 80px;
+}
+#tree::after{
+    content:" Business reinvent itself";
+    color: green;
+    text-align: left;
+}
+.testimonial{
+    gap: 300px;
+    /* background-color: rgba(97, 105, 138, 0.082); */
+   height: 300px;
+   padding-top: 70px;
+   padding-bottom: 70px;margin-bottom: 100px;
+   p
+}
+
+.testimonialimg{
+justify-content: space-between;
+margin-left: 200px;
+}
+.tesla{
+    margin-top: 100px;
+}
+.sailenttext2{
+   margin-top: 40px;
+    gap: 30px;
+    flex-direction: column;
+   
+}
+.icon2{
+    padding-right: 40px;
+}
+.boximg{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-right: 90px;
+    
+}
+.contact{
+    margin-top: 50px;margin-bottom: 50px;
+    
+}
+.boxee{
+    width: 400px;
+    height: 200px;
+   bottom: 80px;
+   left: 25px;
+   text-align:center;padding-top: 40px;
+   border-radius: 30px;
+    background-color: rgba(75, 77, 87, 0.815);;position: relative;
+    flex-direction: row;
+    margin-right: 180px;
+    margin-left: 40px;
+}
